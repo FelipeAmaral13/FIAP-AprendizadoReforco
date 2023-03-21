@@ -21,5 +21,6 @@ This repository conatains my univerisity projects for my ***Principles & Applica
 ## Principles & Applications of Artificial Intelligence
 The ***Principles & Applications of Artificial Intelligence*** course in Spring 2022 at the Computer Engineering Department in Amirkabir University of Technology is taught by: Asst. Prof. [Mahdi Javanmardi](https://scholar.google.co.jp/citations?user=6Za8HuYAAAAJ&hl=en)
 
+# Credits
 ## Author
 * [Farshid Nooshi](https://ce.aut.ac.ir/~Farshid_Nooshi) 
