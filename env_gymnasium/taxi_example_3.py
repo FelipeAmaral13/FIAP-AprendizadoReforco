@@ -1,9 +1,3 @@
-"""
-O algoritmo implementado é o Q-learning, que é uma técnica de aprendizagem por reforço 
-baseada em tabelas que busca aprender o valor de uma ação em um determinado estado. 
-O objetivo do agente é maximizar a recompensa recebida ao longo do tempo.
-"""
-
 # Importa a biblioteca Gym e a biblioteca NumPy
 import gym
 import numpy as np
@@ -66,7 +60,7 @@ done = None
 # Executa um loop enquanto o episódio não termina
 while done != True:
     # Seleciona a ação com o valor Q mais alto para o estado atual
-    action = np.argmax(Q[state])
+    action = np.argmax(Q[int(state)])
     # Executa a ação no ambiente, observa o próximo estado, a recompensa e se o episódio termina, e renderiza a cena
     state, reward, done, info = env.step(action)
     env.render()

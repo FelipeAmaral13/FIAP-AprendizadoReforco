@@ -21,7 +21,7 @@ def random_policy_steps_count():
     counter = 0
     reward = None
     while reward != 20:
-        state, reward, done, info = env.step(env.action_space.sample())  
+        state, _, reward, done, info = env.step(env.action_space.sample())  
         counter += 1
         print(f"Counter {counter}, State {state}, Reward {reward}, Done? {done}, info {info}")
     return counter
